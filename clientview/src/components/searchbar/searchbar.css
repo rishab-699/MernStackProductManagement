@@ -1,0 +1,81 @@
+.Searchbar{
+    padding: 10px;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 5px;
+    width: 80%;
+    background-color: white;
+}
+.Searchbar .SearchInput{
+    font-size: 18px;
+    background: none;
+    border: none;
+    color: rgb(43, 43, 43);
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+.Searchbar .SearchInput:focus{
+    outline: none;
+}
+.queries{
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    width: 75%;
+}
+.querySearch{
+    width: 30%;
+}
+.MonthSelection{
+    font-size: 18px;
+    padding: 5px 18px;
+    border-radius: 5px;
+}
+.error{
+    font-size: 15px;
+    color: red;
+}
+.Loading{
+    font-size: 15px;
+    color: grey;
+}
+.SuggestionList{
+    padding: 10px;
+    background-color: white;
+    list-style: none;
+    width: 80%;
+    height: 80px;
+    overflow-y: auto;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+}
+.pageInfo{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(20, 20, 20);
+}
+.pageTraversal{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.traversalBtn{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(5, 5, 155);
+    border: none;
+    padding: 5px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.traversalBtn:disabled{
+    background-color: rgba(39, 39, 95, 0.5);
+}
+.traversalBtn:active{
+    background-color: rgb(4, 4, 97);
+}

@@ -1,0 +1,44 @@
+.RecordsContainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.queries{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.records{
+    padding: 5px;
+    min-width: 800px;
+}
+.records thead{
+    background-color: rgb(200, 225, 240);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+.tableRecBody{
+    max-height: 450px;
+    overflow-x: auto;
+}
+.records tbody tr{
+    height: 100%;
+}
+.records thead th{
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.tableCell:nth-child(3){
+    max-width: 450px;
+    padding: 8px;
+}
+.tableCell{
+    max-width: 150px;
+    padding: 8px;
+}

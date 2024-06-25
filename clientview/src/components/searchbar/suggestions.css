@@ -1,0 +1,14 @@
+.SuggestedItem{
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(32, 32, 32);
+    font-weight: 500;
+    cursor: pointer;
+}
+.SuggestedItem:hover{
+    background-color: rgb(240, 240, 240);
+}
+.highlight{
+    color: rgb(74, 185, 79);
+    font-weight: 900;
+}

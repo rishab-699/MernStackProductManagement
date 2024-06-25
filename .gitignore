@@ -3,9 +3,9 @@
 /api/.env
 
 # React
-/client/node_modules
-/client/build
-/client/.env
+/clientview/node_modules
+/clientview/build
+/clientview/.env
 
 # Logs
 logs
